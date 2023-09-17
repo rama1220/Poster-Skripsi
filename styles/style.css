@@ -148,7 +148,7 @@ main {
 .rumusan-masalah h6,
 .tujuan-penelitian h6,
 .manfaat-penelitian h6 {
-  font-weight: 100;
+  
   text-align: justify;
   word-spacing: 0.1rem;
   line-height: 1.5vmax;
@@ -184,7 +184,7 @@ main {
 .desain h6,
 .hasil h6,
 .diagram h6 {
-  font-weight: 100;
+
   text-align: justify;
   word-spacing: 0.1rem;
   line-height: 1.5vmax;
@@ -227,7 +227,7 @@ main {
   font-size: 1.5vmax;
 }
 .kesimpulan h6 {
-  font-weight: 100;
+  
   text-align: justify;
   word-spacing: 0.1rem;
   line-height: 1.5vmax;
