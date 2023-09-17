@@ -1,0 +1,415 @@
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(138, 136, 136);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  width: 80vw;
+  height: auto;
+  margin: 2em auto;
+  background-color: #ececec;
+}
+
+/* Start Header */
+header {
+  width: 80vw;
+  height: 15vmax;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.logo {
+  width: 23.5%;
+  height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.logo img {
+  width: 70%;
+}
+
+.judul {
+  background-color: #2e5495;
+  width: 100%;
+}
+.judul h1 {
+  color: white;
+  font-size: 2vmax;
+  font-weight: 100;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: -15px;
+}
+.judul h4,
+h5 {
+  font-size: 1.3vmax;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+}
+
+/* End Header */
+
+main {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #ececec;
+  gap: 1.5%;
+}
+
+/* start Content left */
+.content-left {
+  width: 19%;
+  height: auto;
+  background-color: #2e5495;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.abstrak {
+  color: white;
+  padding: 20px;
+  text-align: justify;
+  word-spacing: 0.1rem;
+  margin-top: 15px;
+}
+.abstrak h4 {
+  margin-bottom: 15px;
+  font-size: 1.5vmax;
+}
+.abstrak h6 {
+  font-weight: 100;
+  line-height: 1.5vmax;
+  font-size: 0.9vmax;
+}
+.keyword {
+  margin-top: 15px;
+}
+.kontak {
+  color: white;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.kontak h5 {
+  text-align: left;
+  font-weight: 100;
+  margin-bottom: 10px;
+  font-size: 1.2vmax;
+}
+.kontak h6 {
+  font-weight: 100;
+  line-height: 14px;
+  font-size: 0.7vmax;
+}
+/* END CONTENT LEFT */
+
+/* start side-left */
+
+.side-left,
+.side-center,
+.side-right {
+  width: 25%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-left: 15;
+}
+
+.latar-belakang,
+.rumusan-masalah,
+.manfaat-penelitian,
+.tujuan-penelitian {
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.latar-belakang h4,
+.rumusan-masalah h4,
+.tujuan-penelitian h4,
+.manfaat-penelitian h4 {
+  color: #2e5495;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5vmax;
+}
+.latar-belakang h6,
+.rumusan-masalah h6,
+.tujuan-penelitian h6,
+.manfaat-penelitian h6 {
+  font-weight: 100;
+  text-align: justify;
+  word-spacing: 0.1rem;
+  line-height: 1.5vmax;
+  font-size: 0.9vmax;
+}
+
+/* End side-left  */
+
+/* start center */
+
+.metode,
+.analisis,
+.desain,
+.hasil,
+.diagram {
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.metode h4,
+.analisis h4,
+.desain h4,
+.hasil h4,
+.diagram h4 {
+  color: #2e5495;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5vmax;
+}
+.metode h6,
+.analisis h6,
+.desain h6,
+.hasil h6,
+.diagram h6 {
+  font-weight: 100;
+  text-align: justify;
+  word-spacing: 0.1rem;
+  line-height: 1.5vmax;
+  margin-bottom: 10px;
+  font-size: 0.9vmax;
+}
+.keterangan {
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.8vmax;
+}
+.metode img,
+.analisis img,
+.desain img,
+.hasil img,
+.diagram img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.desain img {
+  height: 450px;
+  width: 110%;
+}
+/* End center */
+
+/* start side-right */
+
+.kesimpulan,
+.refrensi {
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.kesimpulan h4,
+.refrensi h4 {
+  color: #2e5495;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5vmax;
+}
+.kesimpulan h6 {
+  font-weight: 100;
+  text-align: justify;
+  word-spacing: 0.1rem;
+  line-height: 1.5vmax;
+  margin-bottom: 10px;
+  font-size: 0.9vmax;
+}
+.refrensi ol {
+  padding: 10px;
+}
+.refrensi ol li {
+  font-size: 0.7vmax;
+
+  line-height: 1.5vmax;
+  text-align: justify;
+}
+
+/* End side-right */
+
+/* Screen Display 850px */
+
+@media screen and (max-width: 850px) {
+  header {
+    width: 100%;
+    height: 20vmax;
+  }
+
+  .judul h1 {
+    font-weight: bold;
+    font-size: 2vmax;
+    padding: 3% 3% 1% 3%;
+    margin: 7px;
+  }
+  .judul h4 {
+    font-size: 1.7vmax;
+  }
+  .judul h5 {
+    font-size: 1.7vmax;
+  }
+  main {
+    display: block;
+    padding: 15px;
+  }
+  .content-left {
+    display: flex;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .abstrak {
+    margin-top: -5px;
+  }
+  .kontak {
+    margin-bottom: -35px;
+  }
+  .side-left,
+  .side-center,
+  .side-right {
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+  .latar-belakang,
+  .rumusan-masalah,
+  .tujuan-penelitian,
+  .manfaat-penelitian,
+  .metode,
+  .analisis,
+  .desain,
+  .hasil,
+  .diagram,
+  .kesimpulan,
+  .refrensi {
+    width: auto;
+  }
+  .desain img {
+    width: 100%;
+  }
+  .abstrak h4,
+  .latar-belakang h4,
+  .rumusan-masalah h4,
+  .tujuan-penelitian h4,
+  .manfaat-penelitian h4,
+  .metode h4,
+  .analisis h4,
+  .desain h4,
+  .hasil h4,
+  .diagram h4,
+  .kesimpulan h4,
+  .refrensi h4 {
+    font-size: 1rem;
+  }
+  .abstrak h6,
+  .latar-belakang h6,
+  .rumusan-masalah h6,
+  .tujuan-penelitian h6,
+  .manfaat-penelitian h6,
+  .metode h6,
+  .analisis h6,
+  .desain h6,
+  .hasil h6,
+  .diagram h6,
+  .kesimpulan h6,
+  .keterangan,
+  .refrensi ol li {
+    font-size: 0.8rem;
+    line-height: 2.4vmax;
+  }
+  .kontak h5 {
+    font-size: 0.7rem;
+  }
+  .kontak h6 {
+    font-size: 0.6rem;
+    line-height: 2vmax;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header {
+    width: 100%;
+    height: 15vmax;
+  }
+  .judul h1 {
+    font-weight: bold;
+    font-size: 0.6rem;
+    padding: 3% 3% 1% 3%;
+    margin: 7px;
+  }
+  .judul h4 {
+    font-size: 2vmin;
+    margin-top: -3%;
+  }
+  .judul h5 {
+    font-size: 2vmin;
+  }
+
+  .abstrak h4,
+  .latar-belakang h4,
+  .rumusan-masalah h4,
+  .tujuan-penelitian h4,
+  .manfaat-penelitian h4,
+  .metode h4,
+  .analisis h4,
+  .desain h4,
+  .hasil h4,
+  .diagram h4,
+  .kesimpulan h4,
+  .refrensi h4 {
+    font-size: 2.2vmax;
+  }
+
+  .abstrak h6,
+  .latar-belakang h6,
+  .rumusan-masalah h6,
+  .tujuan-penelitian h6,
+  .manfaat-penelitian h6,
+  .metode h6,
+  .analisis h6,
+  .desain h6,
+  .hasil h6,
+  .diagram h6,
+  .kesimpulan h6,
+  .keterangan,
+  .refrensi ol li {
+    font-size: 2vmax;
+    line-height: 3vmax;
+  }
+  .kontak h5 {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  header {
+    width: 100%;
+    height: 22vmax;
+  }
+
+  .judul h1 {
+    font-size: 2vmax;
+  }
+  .judul h4 {
+    font-size: 1.5vmax;
+  }
+  .judul h5 {
+    font-size: 1.5vmax;
+  }
+}
